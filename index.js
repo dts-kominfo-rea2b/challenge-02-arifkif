@@ -45,7 +45,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahWanita = 0;
   for (let x = 0; x<dataYangAkanDilooping.length;x++){
-    if(dataYangAkanDilooping[a].jenisKelamin == "F"){
+    if(dataYangAkanDilooping[x].jenisKelamin == "F"){
       jumlahWanita = jumlahWanita+1;
       }
   }
